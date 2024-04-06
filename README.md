@@ -70,4 +70,20 @@ This allows dynamic scene representations to synthesize and render novel views o
   Uses separate static and dynamic radiance fields, where camera poses are optimized by the gradient flow from the static radiance field. \
   [Paper](https://arxiv.org/pdf/2301.02239.pdf) · [Code](https://github.com/facebookresearch/robust-dynrf) · [Website](https://robust-dynrf.github.io) - _RoDynRF_
 
+### 2022
+
+- **Neural 3D Video Synthesis from Multi-view Video** (Li et al., CVPR 2022) \
+  Represents dynamic scenes with a NeRF taking time-dependent latent code inputs. \
+  [Paper](https://arxiv.org/pdf/2103.02597.pdf) · [Website](https://neural-3d-video.github.io) - _DyNeRF_
+
+- **Fast Dynamic Radiance Fields with Time-Aware Neural Voxels** (Fang et al., SIGGRAPH Asia 2022) \
+  Represents dynamic scenes with time-aware neural voxels. 3D voxels store features which are queried with deformed coordinates and combined with temporal features. \
+  [Paper](https://arxiv.org/pdf/2205.15285.pdf) · [Code](https://github.com/hustvl/TiNeuVox) · [Website](https://jaminfong.cn/tineuvox/) - _TiNeuVox_
+
+### 2021
+
+- **D-NeRF: Neural Radiance Fields for Dynamic Scenes** (Pumarola et al., CVPR 2021) \
+  Extends NeRF to 4D with a deformation field network outputting displacement as a function of time and position. \
+  [Paper](https://arxiv.org/pdf/2011.13961.pdf) · [Code](https://github.com/albertpumarola/D-NeRF) · [Website](https://www.albertpumarola.com/research/D-NeRF/index.html) - _D-NeRF_
+
 ## Datasets
