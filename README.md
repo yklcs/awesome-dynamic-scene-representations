@@ -87,3 +87,27 @@ This allows dynamic scene representations to synthesize and render novel views o
   [Paper](https://arxiv.org/pdf/2011.13961.pdf) · [Code](https://github.com/albertpumarola/D-NeRF) · [Website](https://www.albertpumarola.com/research/D-NeRF/index.html) - _D-NeRF_
 
 ## Datasets
+
+### Synthetic
+
+- **D-NeRF** \
+  50-200 frames of dynamic subjects without backgrounds. Monocular with randomly changing camera poses every frame. \
+  [Dropbox](https://www.dropbox.com/s/0bf6fl0ye2vz3vr/data.zip?dl=0)
+
+### Real-world
+
+- **DyNeRF** (Neural 3D Video Synthesis) \
+  Indoor scenes with ~20 static multiview cameras. 2704×2028 resolution, <40s long @ 30fps. \
+  [Github](https://github.com/facebookresearch/Neural_3D_Video)
+
+- **Google Immersive** (Immersive Light Field Video with a Layered Mesh Representation) \
+  Indoor and outdoor scenes with 46 static multiview cameras. 2560×1920 resolution, <30s long @ 30fps. \
+  [Github](https://github.com/augmentedperception/deepview_video_dataset?tab=readme-ov-file)
+
+- **Nerfies** \
+  Quasistatic and dynamic scenes captured casually with two smartphones, recording two monocular videos each for training and evaulation. Longest scene is ~300 frames long. \
+  [Github](https://github.com/google/nerfies/releases/tag/0.1)
+
+- **Technicolor** (Dataset and Pipeline for Multi-View Light-Field Video) \
+  Scenes captured with 16 multiview cameras. 2048×1088 resolution. \
+  [Website](https://www.interdigital.com/data_sets/light-field-dataset) (requires email to access)
