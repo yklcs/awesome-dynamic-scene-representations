@@ -45,7 +45,7 @@ This allows dynamic scene representations to synthesize and render novel views o
 
 - **K-Planes: Explicit Radiance Fields in Space, Time, and Appearance** (Fridovich-Keil et al., CVPR 2023) \
   Represents static and dynamic scenes explicitly with radiance fields projected decomposed to six multiscale planes. \
-  [Paper](https://arxiv.org/abs/2301.10241) · [Code](https://github.com/sarafridov/K-Plane) · [Website](https://sarafridov.github.io/K-Planes/) - _K-Planes_
+  [Paper](https://arxiv.org/pdf/2301.10241.pdf) · [Code](https://github.com/sarafridov/K-Plane) · [Website](https://sarafridov.github.io/K-Planes/) - _K-Planes_
 
 - **DynPoint: Dynamic Neural Point For View Synthesis** (Zhou et al., NeurIPS 2023) \
   Synthesized novels views from videos without encoding global scene representations by learning the inter-frame 3D correspondence. Neural points generated from estimated depth and optical flow between frames are used for rendering. \
